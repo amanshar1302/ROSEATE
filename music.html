@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taylor Swift - Music & Albums</title>
+  <link rel="stylesheet" href="music-styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Taylor Swift</a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="music.html" class="active">Music</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <section class="page-hero">
+        <h1>Discography</h1>
+        <p>A Journey Through Every Era</p>
+    </section>
+
+    <section class="albums-section">
+        <div class="container">
+            <div class="albums-grid">
+
+                <div class="album-card">
+                    <div class="album-cover">
+                        <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=300&fit=crop" alt="Midnights">
+                        <div class="album-overlay">
+                            <button class="play-btn" onclick="playAlbum('Midnights')">▶ Play Album</button>
+                        </div>
+                    </div>
+                    <div class="album-info">
+                        <h3>Midnights</h3>
+                        <span class="album-year">2022</span>
+                        <p>13 tracks • Pop</p>
+                        <div class="album-highlights">
+                            <strong>Notable Tracks:</strong> Anti-Hero, Lavender Haze, Karma, Midnight Rain
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="album-card">
+                    <div class="album-cover">
+                        <img src="https://images.unsplash.com/photo-1587204714992-2c93329aaa3a?w=400&h=300&fit=crop" alt="Evermore">
+                        <div class="album-overlay">
+                            <button class="play-btn" onclick="playAlbum('Evermore')">▶ Play Album</button>
+                        </div>
+                    </div>
+                    <div class="album-info">
+                        <h3>Evermore</h3>
+                        <span class="album-year">2020</span>
+                        <p>15 tracks • Alternative/Indie</p>
+                        <div class="album-highlights">
+                            <strong>Notable Tracks:</strong> Willow, Champagne Problems, Gold Rush, No Body No Crime
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="album-card">
+                    <div class="album-cover">
+                        <img src="https://images.unsplash.com/photo-1692796226663-dd49d738f43c?w=400&h=300&fit=crop" alt="Folklore">
+                        <div class="album-overlay">
+                            <button class="play-btn" onclick="playAlbum('Folklore')">▶ Play Album</button>
+                        </div>
+                    </div>
+                    <div class="album-info">
+                        <h3>Folklore</h3>
+                        <span class="album-year">2020</span>
+                        <p>16 tracks • Alternative/Indie</p>
+                        <div class="album-highlights">
+                            <strong>Notable Tracks:</strong> Cardigan, The 1, Exile, Betty, August
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="album-card">
+                    <div class="album-cover">
+                        <img src="https://images.unsplash.com/photo-1722610857998-cfed9f4e7a5f?w=400&h=300&fit=crop" alt="Lover">
+                        <div class="album-overlay">
+                            <button class="play-btn" onclick="playAlbum('Lover')">▶ Play Album</button>
+                        </div>
+                    </div>
+                    <div class="album-info">
+                        <h3>Lover</h3>
+                        <span class="album-year">2019</span>
+                        <p>18 tracks • Pop/Synth-pop</p>
+                        <div class="album-highlights">
+                            <strong>Notable Tracks:</strong> Lover, Cruel Summer, You Need To Calm Down, ME!
+                        </div>
+                    </div>
+                </div>
+
+                <div class="album-card">
+                    <div class="album-cover">
+                        <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=400&h=300&fit=crop" alt="Reputation">
+                        <div class="album-overlay">
+                            <button class="play-btn" onclick="playAlbum('Reputation')">▶ Play Album</button>
+                        </div>
+                    </div>
+                    <div class="album-info">
+                        <h3>Reputation</h3>
+                        <span class="album-year">2017</span>
+                        <p>15 tracks • Electropop/Urban</p>
+                        <div class="album-highlights">
+                            <strong>Notable Tracks:</strong> Look What You Made Me Do, Delicate, End Game, Gorgeous
+                        </div>
+                    </div>
+                </div>
+
+                <div class="album-card">
+                    <div class="album-cover">
+                        <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=400&h=300&fit=crop" alt="1989">
+                        <div class="album-overlay">
+                            <button class="play-btn" onclick="playAlbum('1989')">▶ Play Album</button>
+                        </div>
+                    </div>
+                    <div class="album-info">
+                        <h3>1989 (Taylor's Version)</h3>
+                        <span class="album-year">2014/2023</span>
+                        <p>13 tracks • Synth-pop</p>
+                        <div class="album-highlights">
+                            <strong>Notable Tracks:</strong> Shake It Off, Blank Space, Style, Bad Blood, Wildest Dreams
+                        </div>
+                    </div>
+                </div>
+
+                <div class="album-card">
+                    <div class="album-cover">
+                        <img src="https://images.unsplash.com/photo-1566735355835-bddb43dc3f63?w=400&h=300&fit=crop" alt="Red">
+                        <div class="album-overlay">
+                            <button class="play-btn" onclick="playAlbum('Red')">▶ Play Album</button>
+                        </div>
+                    </div>
+                    <div class="album-info">
+                        <h3>Red (Taylor's Version)</h3>
+                        <span class="album-year">2012/2021</span>
+                        <p>30 tracks • Pop/Country</p>
+                        <div class="album-highlights">
+                            <strong>Notable Tracks:</strong> All Too Well (10 Minute Version), We Are Never Getting Back Together, I Knew You Were Trouble
+                        </div>
+                    </div>
+                </div>
+
+                <div class="album-card">
+                    <div class="album-cover">
+                        <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=300&fit=crop" alt="Speak Now">
+                        <div class="album-overlay">
+                            <button class="play-btn" onclick="playAlbum('Speak Now')">▶ Play Album</button>
+                        </div>
+                    </div>
+                    <div class="album-info">
+                        <h3>Speak Now (Taylor's Version)</h3>
+                        <span class="album-year">2010/2023</span>
+                        <p>22 tracks • Country Pop</p>
+                        <div class="album-highlights">
+                            <strong>Notable Tracks:</strong> Mine, Back to December, Mean, Enchanted, Sparks Fly
+                        </div>
+                    </div>
+                </div>
+
+                <div class="album-card">
+                    <div class="album-cover">
+                        <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=400&h=300&fit=crop" alt="Fearless">
+                        <div class="album-overlay">
+                            <button class="play-btn" onclick="playAlbum('Fearless')">▶ Play Album</button>
+                        </div>
+                    </div>
+                    <div class="album-info">
+                        <h3>Fearless (Taylor's Version)</h3>
+                        <span class="album-year">2008/2021</span>
+                        <p>26 tracks • Country Pop</p>
+                        <div class="album-highlights">
+                            <strong>Notable Tracks:</strong> Love Story, You Belong With Me, White Horse, Fifteen
+                        </div>
+                    </div>
+                </div>
+
+                <div class="album-card">
+                    <div class="album-cover">
+                        <img src="https://images.unsplash.com/photo-1548778052-311f4bc2b502?w=400&h=300&fit=crop" alt="Taylor Swift">
+                        <div class="album-overlay">
+                            <button class="play-btn" onclick="playAlbum('Taylor Swift')">▶ Play Album</button>
+                        </div>
+                    </div>
+                    <div class="album-info">
+                        <h3>Taylor Swift</h3>
+                        <span class="album-year">2006</span>
+                        <p>15 tracks • Country</p>
+                        <div class="album-highlights">
+                            <strong>Notable Tracks:</strong> Tim McGraw, Teardrops on My Guitar, Our Song, Picture To Burn
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="musicModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+            <h3 id="albumTitle"></h3>
+            <p>Now playing...</p>
+            <audio id="audioPlayer" controls>
+                <source src="" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p class="modal-note">Demo player - Listen on all streaming platforms</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Taylor Swift</h3>
+                <p>Singer, Songwriter, Producer, Director</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="music.html">Music</a></li>
+                    <li><a href="tour.html">Tour</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow</h4>
+                <div class="social-links">
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">TikTok</a>
+                    <a href="#">YouTube</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Taylor Swift. All rights reserved. Fan site for educational purposes.</p>
+        </div>
+    </footer>
+
+    <script>
+        function playAlbum(albumName) {
+            document.getElementById('albumTitle').textContent = albumName;
+            document.getElementById('musicModal').classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('musicModal').classList.remove('active');
+            document.getElementById('audioPlayer').pause();
+        }
+
+        window.onclick = function(event) {
+            const modal = document.getElementById('musicModal');
+            if (event.target === modal) {
+                closeModal();
+            }
+        }
+    </script>
+</body>
+</html>
