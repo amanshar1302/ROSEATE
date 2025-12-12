@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Taylor Swift - Get in Touch</title>
+     <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Taylor Swift</a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-hero">
+        <h1>Get in Touch</h1>
+        <p>Connect with Taylor Swift & Stay Updated</p>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    
+                    <div class="info-item">
+                        <h3>Email</h3>
+                        <p>For business inquiries and partnerships, please contact our management team at:</p>
+                        <p><strong>contact@taylorswift.com</strong></p>
+                    </div>
+
+                    <div class="info-item">
+                        <h3>📱 Phone</h3>
+                        <p>General Inquiries:</p>
+                        <p><strong>+1 (615) 555-0100</strong></p>
+                    </div>
+
+                    <div class="info-item">
+                        <h3>📍 Address</h3>
+                        <p>Taylor Swift Entertainment</p>
+                        <p>Nashville, Tennessee</p>
+                        <p>United States</p>
+                    </div>
+
+                    <div class="info-item">
+                        <h3>🎤 Follow on Social Media</h3>
+                        <p>Stay connected and get the latest updates on tour dates, new music, and behind-the-scenes content.</p>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon" title="Instagram">📷</a>
+                            <a href="#" class="social-icon" title="Twitter">𝕏</a>
+                            <a href="#" class="social-icon" title="TikTok">🎵</a>
+                            <a href="#" class="social-icon" title="YouTube">▶</a>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <h3>⏰ Response Time</h3>
+                        <p>We appreciate your interest! Due to the high volume of messages, we respond to inquiries within 5-7 business days.</p>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h2>Send us a Message</h2>
+                    <div id="successMessage" class="success-message">
+                        Thank you! Your message has been sent successfully. We'll get back to you soon!
+                    </div>
+
+                    <form id="contactForm" onsubmit="handleSubmit(event)">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>How can I attend The Eras Tour?</h3>
+                    <p>Tour tickets are available through official ticketing partners. Check our Tour page for dates, locations, and ticket information. Early registration often provides access to presale events.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Where can I listen to Taylor's music?</h3>
+                    <p>Taylor Swift's music is available on all major streaming platforms including Spotify, Apple Music, YouTube Music, Amazon Music, and more. Physical albums are also available for purchase.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>How can I submit fan art or content?</h3>
+                    <p>We love seeing fan creations! Share your art on social media and tag @taylorswift. The best submissions may be featured on our official channels and social platforms.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Can I request a collaboration or partnership?</h3>
+                    <p>Business and collaboration inquiries should be sent to contact@taylorswift.com with detailed information about your proposal. Please allow time for review and response.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>How do I stay updated on new releases?</h3>
+                    <p>Follow Taylor Swift on all social media platforms and subscribe to the official newsletter for exclusive updates on new music, tour announcements, and special content.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>Is there an official fan club?</h3>
+                    <p>Join the official community to get exclusive access to presale tickets, behind-the-scenes content, and special fan experiences. Sign up through the main website.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Taylor Swift</h3>
+                <p>Singer, Songwriter, Producer, Director</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="music.html">Music</a></li>
+                    <li><a href="tour.html">Tour</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow</h4>
+                <div class="social-links">
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">TikTok</a>
+                    <a href="#">YouTube</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Taylor Swift. All rights reserved. Fan site for educational purposes.</p>
+        </div>
+    </footer>
+
+    <script>
+        function handleSubmit(event) {
+            event.preventDefault();
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+
+            document.getElementById('successMessage').style.display = 'block';
+            
+            document.getElementById('contactForm').reset();
+
+            setTimeout(function() {
+                document.getElementById('successMessage').style.display = 'none';
+            }, 5000);
+        }
+    </script>
+</body>
+</html>
